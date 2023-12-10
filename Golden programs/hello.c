@@ -2,8 +2,14 @@
 #include <string.h>
 #include <stdlib.h>
 
-int main(int argc, char *argv[]){
-    printf("Hello.\n");
+void printBanner(){
+    printf("----------------\n");
+    printf("|              |\n");
+}
 
+int main(int argc, char *argv[]){
+    printBanner();
+    printf("Hello.\n");
+    
     return 0;
 }
