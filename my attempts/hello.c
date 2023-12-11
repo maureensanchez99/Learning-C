@@ -9,6 +9,7 @@ void printBanner(){
 int main(int argc, char *argv[]){
     printBanner();
     printf("Hello.\n");
-    
+    printBanner();
+
     return 0;
 }
